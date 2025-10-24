@@ -53,11 +53,11 @@ class StatCard(QFrame):
             trend_label.setFont(QFont("Arial", 10, QFont.Weight.Bold))
             trend_label.setStyleSheet("""
                 background-color: #fef3c7;
-                color: #000;
+                color: #92400e;
                 border-radius: 12px;
                 padding: 4px 10px;
             """)
-            trend_label.setFixedWidth(50)
+            trend_label.setFixedWidth(80)
         
         layout.addLayout(top_layout)
         layout.addWidget(label_widget)
